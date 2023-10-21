@@ -1,0 +1,504 @@
+/*comon css*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.continar {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*common css end*/
+
+/*topbar stard*/
+.topbar {
+    height: 60px;
+    background-color: #02918c;
+}
+
+.logo {
+    line-height: 60px;
+    color: #cfc91d;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.logo p::before {
+    content: "MY";
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.topbar .continar .home ul {
+    display: flex;
+}
+
+.topbar .continar {
+    display: flex;
+}
+
+.topbar .continar .home ul li a {
+    margin-left: 25px;
+    line-height: 60px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.topbar .continar .home ul li a:hover {
+    color: #000000;
+}
+
+/*topbar end*/
+/*manubar start*/
+.image {
+    background-image: url(../image/MYFOLIO.png);
+    height: 730px;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+}
+
+.image .continar .contan {
+    text-align: center;
+    padding-top: 200px;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.image .continar .contan p {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.image .continar .contan h1 {
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+}
+
+.image .continar .contan span {
+    margin-top: 20px;
+}
+
+.image .continar .contan .logo {
+    margin: 20px auto;
+}
+
+.image .continar .contan .baton {
+    width: 200px;
+    height: 45px;
+    background-color: #cfc91d;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+.image .continar .contan .baton:hover {
+    background-color: #02918c;
+    color: #f40606;
+    cursor: pointer;
+    width: 250px;
+    font-size: 20px;
+}
+
+.image .continar .contan .baton ul li a {
+    line-height: 45px;
+    margin-right: 30px;
+    color: #0b1016;
+    font-weight: bolder;
+}
+
+/*manubar end*/
+/*about staert*/
+.about .continar .aboutconten p {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-weight: 800;
+    font-size: 65px;
+    color: #02918c;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.about .continar .aboutconten .pra {
+    width: 800px;
+    height: 140px;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align-last: center;
+}
+
+.about .continar .aboutconten .pra span:nth-child(2) {
+    text-align-last: center;
+    font-weight: 700;
+}
+
+.about .continar .aboutconten .pra span:nth-child() {
+    margin-left: 150px;
+}
+
+.boxconten .continar .contentbox {
+    display: flex;
+    margin-top: 60px;
+}
+
+.boxconten .continar .contentbox .box1 {
+    width: calc(100% / 4);
+    border-right: 2px solid #d9dbdb;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.boxconten .continar .contentbox .box2 {
+    width: calc(100% / 4);
+    border-right: 2px solid #d9dbdb;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.boxconten .continar .contentbox .box3 {
+    width: calc(100% / 4);
+    border-right: 2px solid #d9dbdb;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.boxconten .continar .contentbox .box4 {
+    width: calc(100% / 4);
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.boxconten .continar .contentbox h3 {
+    margin: 30px 0 30px;
+}
+
+.boxconten .continar .contentbox span {
+    line-height: 15px;
+}
+
+/*about end*/
+/*sirvice stard*/
+.sirvice .sirvicecontent {
+    display: flex;
+    margin-top: 100px;
+}
+
+.sirvice .sirvicecontent .sirvice1 {
+    width: 640px;
+    height: 730px;
+    display: flex;
+    background-image: url(../image/banar2.png);
+    text-align: center;
+}
+
+.sirvice .sirvicecontent .sirvice2 {
+    height: 730px;
+    width: 640px;
+    display: flex;
+    background-image: url(../image/banar1.png);
+    background-position: cover;
+    background-size: cover;
+}
+
+.sirvice .sirvicecontent .sirvice1 .box1 {
+    margin-top: 70px;
+    width: 480px;
+    text-align: left;
+}
+
+.sirvice .sirvicecontent .sirvice1 .box1 h3:nth-child(1) {
+    color: #02918c;
+    font-size: 64px;
+    line-height: 40px;
+}
+
+.sirvice .sirvicecontent .sirvice1 .box1 p {
+    margin-top: 60px;
+}
+
+.sirvice .sirvicecontent .sirvice1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sirvice .sirvicecontent .box2 {
+    width: 240px;
+    height: 170px;
+    display: flex;
+}
+
+.sirvice .sirvicecontent .box3 {
+    width: 240px;
+    height: 170px;
+    display: flex;
+}
+
+.sirvice .sirvicecontent .box4 {
+    width: 240px;
+    height: 170px;
+    display: flex;
+}
+
+.sirvice .sirvicecontent .box5 {
+    width: 240px;
+    height: 170px;
+    display: flex;
+}
+
+.sirvice .sirvicecontent .box2 .item1 {
+    text-align: left;
+}
+
+.sirvice .sirvicecontent .box3 .item2 {
+    text-align: left;
+}
+
+.sirvice .sirvicecontent .box4 .item3 {
+    text-align: left;
+}
+
+.sirvice .sirvicecontent .box5 .item4 {
+    text-align: left;
+}
+
+.sirvice .sirvicecontent .box2 .item1 h3 {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sirvice .sirvicecontent .box2 .item1 span {
+    line-height: 20px;
+}
+
+.sirvice .sirvicecontent .box3 .item2 h3 {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sirvice .sirvicecontent .box3 .item2 span {
+    line-height: 20px;
+}
+
+.sirvice .sirvicecontent .box4 .item3 h3 {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sirvice .sirvicecontent .box4 .item3 span {
+    line-height: 20px;
+}
+
+.sirvice .sirvicecontent .box5 .item4 h3 {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sirvice .sirvicecontent .box5 .item4 span {
+    line-height: 20px;
+}
+
+/*sirvice end*/
+/*work stard*/
+.work .continar {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.work .continar .manwork {
+    width: 610px;
+}
+
+.work .continar .manwork h3 {
+    padding: 40px;
+    box-sizing: border-box;
+    font-size: 46px;
+    color: #02918c;
+}
+
+.work .continar .manwork span {
+    line-height: 25px;
+}
+
+.workimg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1280px;
+    margin-top: 80px;
+}
+
+.workimg .img1 {
+    width: 320px;
+    height: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.workimg .img1 img {
+    width: 320px;
+    height: 240px;
+    display: flex;
+}
+
+.workimg .img1 .overly {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 270px;
+    height: 197px;
+    background-color: #02918c;
+    z-index: 999;
+    color: #ffffff;
+    text-align: center;
+    transition: all linear 0.3s;
+    opacity: 0.7;
+    padding: 10px;
+    display: none;
+    box-sizing: border-box;
+}
+
+.workimg .img1:hover .overly {
+    display: block;
+}
+
+.workimg .img1 .overly h4 {
+    padding: 20px;
+}
+
+/*work end*/
+/*contact stard*/
+.contac {
+    text-align: center;
+    margin-top: 96px;
+}
+
+.contac h3 {
+    color: #02918c;
+    font-size: 46px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contac .ar {
+    width: 605px;
+}
+
+.contac .ar span {
+    line-height: 30px;
+}
+
+.contac h3,
+.contac .ar span {
+    text-align: center;
+}
+
+/*contac end*/
+/*submit start*/
+.submit {
+    width: 1280px;
+    background-color: #0b0b0b;
+    margin-top: 75px;
+    text-align: center;
+}
+
+.submit .form1 span {
+    color: #ffffff;
+}
+
+.submit .form2 span {
+    color: #ffffff;
+}
+
+.submit .form3 span {
+    color: #ffffff;
+}
+
+.submit .form1 input {
+    width: 643px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.submit .form2 input {
+    width: 639px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.submit .form3 input {
+    width: 919px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.submit .form4 input {
+    width: 919px;
+    height: 60px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.submit .send input {
+    background-color: #cfc91d;
+    height: 30px;
+    width: 197px;
+    margin-top: 40px;
+}
+
+.submit form {
+    padding: 100px;
+}
+
+/*submit end*/
+.fotter {
+    width: 1280px;
+    height: 60px;
+    background-color: #000000;
+}
+
+.fotter .foterman {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fotter .foterman span {
+    color: #ffffff;
+}
+
+/*fotter end*/
